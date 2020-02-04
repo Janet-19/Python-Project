@@ -1,7 +1,8 @@
 Python project
 ==============================
 
-Python project inof applied Data Science
+This is course project in Wustl Info 577 applied Data Science course.
+Python packages, such as scikit-learn, tensorflow, Pandas, will be used to process data, establish and train model, visualize results.
 
 Project Organization
 ------------
