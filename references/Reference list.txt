@@ -1,5 +1,0 @@
-# Reference list
-
-[1] Original datset source: https://www.kaggle.com/austinreese/craigslist-carstrucks-data
-
-[2] Roy, B. (2019). All about Categorical Variable Encoding. [online] Medium. Available at: https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd02.
