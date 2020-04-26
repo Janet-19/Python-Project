@@ -3,6 +3,10 @@ Price estimation of Used Cars Dataset
 
 This is final project of Wustl Info 577 Applied Data Science for Practitioners course.
 
+Data source provided by Kaggle:
+------------
+Used Cars Dataset: https://www.kaggle.com/austinreese/craigslist-carstrucks-data
+
 Project Organization
 ------------
 
