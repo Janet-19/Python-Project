@@ -1,8 +1,7 @@
 Price estimation of Used Cars Dataset
 ==============================
 
-This is course project in Wustl Info 577 applied Data Science course.
-Python packages, such as scikit-learn, tensorflow, Pandas, will be used to process data, establish and train model, visualize results.
+This is final project of Wustl Info 577 Applied Data Science for Practitioners course.
 
 Project Organization
 ------------
