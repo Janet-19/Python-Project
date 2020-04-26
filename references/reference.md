@@ -18,3 +18,5 @@
 [9] Vishal Morde (2019). *XGBoost Algorithm: Long May She Reign!* [online] Medium. Available at: https://towardsdatascience.com/https-medium-com-vishalmorde-xgboost-algorithm-long-she-may-rein-edd9f99be63d.
 
 [10] kaggle.com. (n.d.). *XGBRegressor with GridSearchCV.* [online] Available at: https://www.kaggle.com/jayatou/xgbregressor-with-gridsearchcv/code.
+
+[11] 知乎专栏. (n.d.). 如何为你的回归问题选择最合适的机器学习方法？. [online] Available at: https://zhuanlan.zhihu.com/p/62034592 [Accessed 26 Apr. 2020].
