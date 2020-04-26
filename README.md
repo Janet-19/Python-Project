@@ -1,4 +1,4 @@
-Python project
+Price estimation of Used Cars Dataset
 ==============================
 
 This is course project in Wustl Info 577 applied Data Science course.
