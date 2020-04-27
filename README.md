@@ -1,14 +1,37 @@
-Price estimation of Used Cars Dataset
+Price Estimation of Used Cars Dataset
 ==============================
 
 This is final project of Wustl Info 577 Applied Data Science for Practitioners course.
 
-Data source provided by Kaggle:
+Business Goal and Supporting Objectives of the Project:
 ------------
-Used Cars Dataset: https://www.kaggle.com/austinreese/craigslist-carstrucks-data
+In the U.S., the used-car market is more twice the size of the new-car segment and is outpacing it in growth. According to [McKinsey's auto retail micro-market model](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/used-cars-new-platforms-accelerating-sales-in-a-digitally-disrupted-market), it estimates that Americans buy 39.4 million used cars each year, versus 17.3 million new ones (2018), and that used-vehicle sales will increase faster than new-vehicle sales over the next five years. Compared with buying a relatively expansive new car, selecting a used car becomes a more affordable and popular choice for consumers. 
 
-Business goal and supporting objectives of the project:
------------
+However, when shopping for a used vehicle, customers always have an overriding concern -- *Am I paying too much?* At the same time, car dealers also have difficulty in car resale price forecasting to ensure the competitiveness and profitability of the used car business. 
+
+Under these considerations, the project aims at establishing a model for used car price prediction considering multiple influencing factors, such as year, condition, color, manafacturer, cylinder, etc. It's will be a good attempt to see: 1) to which degree are used car resale prices predictable; 2) what is the relative accuracy of different prediction methods and are some methods particularly effective. Under price estimation, car owners could know more details about used cars pricing when selling their cars, while car buyers could know whether the resale price is reasonable considering different influencing factors.
+
+Data Source:
+------------
+The Used Cars Dataset is from [Kaggle](https://www.kaggle.com/austinreese/craigslist-carstrucks-data). and its original source is from [Craigslist](https://geo.craigslist.org/iso/us), the world's largest collection of used vehicles for sales. 
+
+Overview of Complete Machine Learning Workflow:
+----------------
+- Data ingestion: 
+> The whole dataset is about 509577 rows with parts of missing values. It has 25 columns, that are id (entry ID), url (listing URL), region (craigslist region), region_url, price (entry price), year (entry year), manufacturer, model, condition, cylinders (number of cylinders), fuel (fuel type), odometer (miles traveled by vehicle), title_status, transmission, vin (vehicle identification number), drive (type of drive), size, type, paint_color, image_url, description, county, state (state of listing), lat (latitude of listing), long (longitude of listing).
+- [Exploratory Data Analysis (EDA)](https://github.com/Janet-19/Python-Project/blob/master/notebooks/Exploratory%20Data%20Analysis.ipynb)
+> The dataset contains so many columns, here I chose some of the columns I insterested for exploratory data analysis.
+- Data Pre-processing
+> Considering the heavy worklaod of data pre-processing towards 509577 rows, 25 columns, I divided the whole processes into two parts:
+
+> (1) [Data Pre-processing Part I](https://github.com/Janet-19/Python-Project/blob/master/notebooks/Data%20Pre-processing%20Part%20I.ipynb)
+
+> (2) [Data Pre-processing Part II](https://github.com/Janet-19/Python-Project/blob/master/notebooks/Data%20Pre-processing%20Part%20II.ipynb)
+
+- [Data Modelling and Evaluation](https://github.com/Janet-19/Python-Project/blob/master/notebooks/Model%20Training%20%26%20Evaluation%20.ipynb)
+
+[Reference & Citations](https://github.com/Janet-19/Python-Project/blob/master/references/reference.md)
+------------
 
 Project Organization
 ------------
