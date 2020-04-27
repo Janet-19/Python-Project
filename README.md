@@ -7,6 +7,9 @@ Data source provided by Kaggle:
 ------------
 Used Cars Dataset: https://www.kaggle.com/austinreese/craigslist-carstrucks-data
 
+Business goal and supporting objectives of the project:
+-----------
+
 Project Organization
 ------------
 
