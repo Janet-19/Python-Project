@@ -15,6 +15,8 @@ Data Source:
 ------------
 The Used Cars Dataset is from [Kaggle](https://www.kaggle.com/austinreese/craigslist-carstrucks-data). and its original source is from [Craigslist](https://geo.craigslist.org/iso/us), the world's largest collection of used vehicles for sales. 
 
+Since the original dataset is too large, I put data sample in [data](https://github.com/Janet-19/Python-Project/tree/master/data) folder instead of uploading the whole dataset.
+
 Overview of Complete Machine Learning Workflow:
 ----------------
 - Data ingestion: 
@@ -36,6 +38,10 @@ Overview of Complete Machine Learning Workflow:
 > In data modelling, considering it's a regression problem, thus I chose Linear Regression , SGD Regression, Decision Tree Regression, LGBM, XGBOOST algorithms with parameter tuning to train the model respectively. Then, I used Mean Absolute Error, Mean Squared Error, Root Mean Square Error indicators to compare the performance of the above five models.
 
 > After comparison, I found Decision Tree Regression achieves best performance in used car price prediction.
+
+P.S. Since the dataset has so many columns, and each column have different chatacteristics and influencing factors towards car prices. Thus, **I did not implement *pipeline to automate the whole workflow*, but chose to implement different handling methods towards different columns separately towards missing values, duplicates, categorical encoding, other feature transformation, as well as data standardization.**
+
+**Compared with other ML workflow in Kaggle using pipeline, I got improved performance in model training and evaluation after customized feature engineering.**
 
 [Reference & Citations](https://github.com/Janet-19/Python-Project/blob/master/references/reference.md)
 ------------
