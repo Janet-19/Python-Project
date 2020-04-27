@@ -17,6 +17,11 @@ The Used Cars Dataset is from [Kaggle](https://www.kaggle.com/austinreese/craigs
 
 Since the original dataset is too large, I put data sample in [data](https://github.com/Janet-19/Python-Project/tree/master/data) folder instead of uploading the whole dataset.
 
+Environment Requirement
+----------------
+Detailed environment requirement is shown in [requirement.txt](https://github.com/Janet-19/Python-Project/blob/master/requirements.txt) file.
+Use - pip install -r requirements.txt to download the required packages.
+
 Overview of Complete Machine Learning Workflow:
 ----------------
 - Data ingestion: 
