@@ -46,7 +46,7 @@ Overview of Complete Machine Learning Workflow:
 
 P.S. Since the dataset has so many columns, and each column have different chatacteristics and influencing factors towards car prices. **I chose to implement different handling methods towards different columns separately towards missing values, duplicates, categorical encoding, other feature transformation, as well as data standardization.**
 
-**Compared with other ML workflow in Kaggle using pipeline, I got improved performance in model training and evaluation after customized feature engineering.**
+**Compared with other ML workflow towards this dataset in Kaggle, I got improved performance in model training and evaluation after customized feature engineering.**
 
 [Reference & Citations](https://github.com/Janet-19/Python-Project/blob/master/references/reference.md)
 ------------
