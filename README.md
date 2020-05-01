@@ -44,7 +44,7 @@ Overview of Complete Machine Learning Workflow:
 
 > After comparison, I found Decision Tree Regression achieves best performance in used car price prediction.
 
-P.S. Since the dataset has so many columns, and each column have different chatacteristics and influencing factors towards car prices. Thus, **I did not implement *pipeline to automate the whole workflow*, but chose to implement different handling methods towards different columns separately towards missing values, duplicates, categorical encoding, other feature transformation, as well as data standardization.**
+P.S. Since the dataset has so many columns, and each column have different chatacteristics and influencing factors towards car prices. **I chose to implement different handling methods towards different columns separately towards missing values, duplicates, categorical encoding, other feature transformation, as well as data standardization.**
 
 **Compared with other ML workflow in Kaggle using pipeline, I got improved performance in model training and evaluation after customized feature engineering.**
 
