@@ -45,7 +45,7 @@ plotly == 4.4.1
 seaborn == 0.10.0
 
 # Data Science/setup.py: 1
-setuptools == 46.0.0.post20200309
+setuptools == 65.5.1
 
 # Data Science/notebooks/.ipynb_checkpoints/Data Pre-processing Part II (Bigger Version)-checkpoint.ipynb: 6,7,112,116
 # Data Science/notebooks/.ipynb_checkpoints/Data Pre-processing Part II-checkpoint.ipynb: 6,7,108,112
